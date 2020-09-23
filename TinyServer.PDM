@@ -1,0 +1,138 @@
+[Root]
+Most Recent Package=Setup.ini
+
+
+[Package|Setup.ini|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\tinyserver\setup
+
+[Package|Setup.ini|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup.ini|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup.ini|Files Found]
+
+[Package|Setup.ini|Files Released]
+
+[Package|Setup.ini|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\Base64.dll=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\Program Files\Tiny Server\COMDLG32.OCX=
+C:\Program Files\Tiny Server\MSWINSCK.OCX=
+C:\Program Files\TinyServer\COMDLG32.OCX=
+
+[Package|Setup.ini|Out-of-Date Dependency Information]
+
+[Package|Setup.ini|Files Added]
+c:\program files\microsoft visual studio\vb98\tinyserver\license.txt=
+c:\program files\microsoft visual studio\vb98\tinyserver\readme.txt=
+c:\program files\microsoft visual studio\vb98\tinyserver\index.htm=
+
+[Package|Setup.ini|Files Removed]
+c:\windows\system\base64.dll=
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\program files\common files\designer\msderun.dll=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Setup.ini|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\TinyServer.exe=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=No
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\License.txt=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\Readme.txt=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\index.htm=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\TinyServer\COMDLG32.OCX=Yes
+
+[Package|Setup.ini|Configure Registry Files]
+Applicable=No
+
+[Package|Setup.ini|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup.ini|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\server\TinyServer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\TinyServer.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\License.txt=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\Readme.txt=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\index.htm=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Tiny Server\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Tiny Server\COMDLG32.OCX=$(AppPath)
+C:\Program Files\TinyServer\COMDLG32.OCX=$(WinSysPath)
+
+[Package|Setup.ini|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\server\TinyServer.exe=No
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=No
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\TinyServer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\License.txt=No
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\Readme.txt=No
+C:\Program Files\Microsoft Visual Studio\VB98\TinyServer\index.htm=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Tiny Server\COMDLG32.OCX=No
+
+[Package|Setup.ini|Distribution]
+Type=single
+Size=
+Title=Tiny Server v1.1.5
+
+[Package|Setup.ini|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\tinyserver\setup
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\TinyServer
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\tinyserver\setup\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\tinyserver\setup\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\tinyserver\setup\TinyServer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup.ini|IconGroups]
+Group0=Tiny Server
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Setup.ini|Tiny Server]
+Icon1=TinyServer.exe
+Title1=Tiny Server
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=readme.txt
+Title2=TinyServer Readme
+StartIn2=$(AppPath)
+Key2=Icon3
